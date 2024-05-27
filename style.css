@@ -1,0 +1,145 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100;
+    background-color:#120a66;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 20px 0;
+}
+.logo-imagens{
+    width: 50px;
+    height:50px;
+    background-color: black;
+    border-radius : 25px;
+}
+
+.container-logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo-texto{
+    margin-left: 20px;
+    color:#DCDCDC
+}
+
+.menu li{
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.menu li a{
+font-family:Arial, Helvetica, sans-serif;
+font-size:18px;
+border-radius:4px;
+padding-left:10px;
+padding-right:10px;
+padding-top:5px;
+padding-bottom:5px;
+color:#ffffff;
+background-color:#120a66;    
+outline:none;
+border:none;
+cursor:pointer;
+display:inline-block;
+text-decoration: none;
+transition: .4s;
+}
+
+.menu li a:hover{
+    background-color: rgb(81, 69, 136);
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0%;
+    background: #eaeaea;
+}
+
+
+button{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content:flex-end;
+    align-items:flex-start;
+}
+
+.tittle{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+}
+
+.corpo{
+    text-align: center;
+    text-align: justify;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 40px;
+}
+
+.subtittle{
+    margin-top: 60px;
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+    margin-left:25% ;
+}
+
+.space{
+    margin-top: 15px;
+    margin-left: 25%;
+}
+
+.button{
+    font-family:Arial, Helvetica, sans-serif;
+font-size:18px;
+border-radius:4px;
+padding-left:10px;
+padding-right:10px;
+padding-top:5px;
+padding-bottom:5px;
+color:#ffffff;
+background-color:#120a66;    
+outline:none;
+border:none;
+cursor:pointer;
+display:inline-block;
+text-decoration: none;
+transition: .4s;
+}
+    
+.button:hover{
+    background-color: rgb(81, 69, 136); 
+}
+
+.img1{
+    text-align: center;
+}
+
+.subtittle1{
+    margin-top: 60px;
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+    margin-left:0% ;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 12vh;
+    background-color: #120a66 ;
+}
